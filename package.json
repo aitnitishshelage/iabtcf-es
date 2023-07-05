@@ -1,6 +1,6 @@
 {
   "name": "iabtcf",
-  "version": "1.5.6",
+  "version": "1.5.6-1",
   "description": "Official compliant tool suite for implementing the iab. Transparency and Consent Framework (TCF).",
   "private": true,
   "workspaces": [
@@ -11,7 +11,7 @@
     "modules/stub"
   ],
   "author": "Chris Paterson <tcf@chrispaterson.io>",
-  "homepage": "https://github.com/chrispaterson/iabtcf",
+  "homepage": "https://github.com/InteractiveAdvertisingBureau/iabtcf-es",
   "license": "Apache-2.0",
   "scripts": {
     "build": "yarn workspaces run build",

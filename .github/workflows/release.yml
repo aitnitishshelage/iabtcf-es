@@ -55,7 +55,7 @@ jobs:
         if: ${{steps.check.outputs.version_changed == 'true'}}
         run: | 
           VERSION="${{ github.event.inputs.environment }}"
-          yarn --version $VERSION
+          yarn version --new-version $VERSION
           
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

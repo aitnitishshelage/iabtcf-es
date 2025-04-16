@@ -3118,6 +3118,11 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.3.0"
     debug "^3.1.0"
 
+"iabtechlabtcf@file:.":
+  version "1.5.15"
+  dependencies:
+    iabtechlabtcf "file:../../../.cache/yarn/v6/npm-iabtechlabtcf-1.5.15-d95d3983-faa2-4120-a0f2-3ed6878dbb06-1744827889401/node_modules/iabtechlabtcf"
+
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
